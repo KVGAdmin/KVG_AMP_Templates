@@ -10,7 +10,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"cd mariadb && wget -qO mariadb.tar.gz https://dlm.mariadb.com/3899605/MariaDB/mariadb-11.5.2/bintar-linux-systemd-x86_64/mariadb-11.5.2-linux-systemd-x86_64.tar.gz && tar -xzf mariadb.tar.gz -C server --strip-components=1 >/dev/null 2>&1 && rm -rf mariadb.tar.gz >/dev/null 2>&1\"",
+        "UpdateSourceArgs": "-c \"cd mariadb && wget -qO mariadb.tar.gz https://dlm.mariadb.com/3965899/MariaDB/mariadb-11.6.2/repo/debian/mariadb-11.6.2-debian-bookworm-amd64-debs.tar && tar -xzf mariadb.tar -C server --strip-components=1 >/dev/null 2>&1 && rm -rf mariadb.tar.gz >/dev/null 2>&1\"",
         "SkipOnFailure": false
     },
     {
